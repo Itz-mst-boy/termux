@@ -21,4 +21,4 @@
 * Cross platform- Works in Android[Termux], Linux, Windows, etc
 
 # 🇸‌🇨‌🇷‌🇪‌🇪‌🇳‌🇸‌🇭‌🇴‌🇹‌ 📷
-<p align='center'><img src='https://github.com/krish775/Rex-TG-Member-Adder/blob/main/Screenshot_20210814-153259_Termux.png' width='720' height='1520'></p>
+<p align='center'><img src='https://github.com/Itz-mst-boy/termux/blob/main/Screenshot_20220525_103736.jpg' width='720' height='1520'></p>
