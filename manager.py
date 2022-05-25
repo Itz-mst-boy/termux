@@ -66,7 +66,7 @@ while True:
             clr()
             print(f'\n{gr} [*] Logging in from new accounts\n')
             for number in new_accs:
-                c = TelegramClient(f'sessions/{number}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+                c = TelegramClient(f'sessions/{number}', 11849799 , '2bdcc0f0b3a04954d1cc1b11d5a1f669')
                 c.start(number)
                 print(f'{ye}[+] 𝐋𝐨𝐠𝐢𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮L')
                 c.disconnect()
@@ -89,7 +89,7 @@ while True:
         else:
             for account in accounts:
                 phone = str(account[0])
-                client = TelegramClient(f'sessions/{phone}', 8088717 , '7d1e0295ee1c2628f1933e9ffd2d8b78')
+                client = TelegramClient(f'sessions/{phone}', 11849799 , '2bdcc0f0b3a04954d1cc1b11d5a1f669')
                 client.connect()
                 if not client.is_user_authorized():
                     try:
@@ -145,8 +145,8 @@ while True:
         # thanks to github.com/Itz-mst-boy for the snippet below
         print(f'\n{lg}[i] Checking for updates...')
         try:
-            # https://raw.githubusercontent.com/Itz-mst-boy/LULI-Member-Adder/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/Itz-mst-boy/Luli-Member-Adder/main/version.txt')
+            # https://raw.githubusercontent.com/Itz-mst-boy/termux/main/version.txt
+            version = requests.get('https://raw.githubusercontent.com/Itz-mst-boy/termux/main/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
@@ -162,8 +162,8 @@ while True:
                     os.system('rm adder.py')
                     os.system('rm manager.py')
                 #os.system('del scraper.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Itz-mst-boy/LULI-Member-Adder/main/rexadder.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Itz-mst-boy/LULI-Member-Adder/main/rexmanager.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/Itz-mst-boy/termux/main/rexadder.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/Itz-mst-boy/termux/main/rexmanager.py')
                 print(f'{gr}[*] Updated to version: {version.text}')
                 input('Press enter to exit...')
                 exit()
