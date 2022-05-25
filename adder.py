@@ -76,7 +76,7 @@ print('\n' + info + lg + ' Checking for banned accounts...' + rs)
 for a in accounts:
     phn = a[0]
     print(f'{plus}{grey} Checking {lg}{phn}')
-    clnt = TelegramClient(f'sessions/{phn}', 8088717, '7d1e0295ee1c2628f1933e9ffd2d8b78')
+    clnt = TelegramClient(f'sessions/{phn}', 11849799, '2bdcc0f0b3a04954d1cc1b11d5a1f669')
     clnt.connect()
     banned = []
     if not clnt.is_user_authorized():
