@@ -18,12 +18,12 @@ colors = [lg, r, w, cy, ye, gr]
 try:
     import requests
 except ImportError:
-    print(f'{lg}[i] Installing module - requests...{n}')
+    print(f'{lg}[i] ɪɴsᴛᴀʟʟɪɴɢ ᴍᴏᴅᴜʟᴇ - requests...{n}')
     os.system('pip install requests')
 
 def banner():
     import random
-    # fancy logo
+    # ᴍᴜᴋᴇsʜ ʟᴏɢᴏ
     b = [
     
 
