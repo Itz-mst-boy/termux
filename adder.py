@@ -207,7 +207,7 @@ for acc in to_use:
         members = []
         members = c.get_participants(scraped_grp_entity, limit = 5500)
     except Exception as e:
-        print(f'{error}{r} ᴄᴏᴜʟᴅɴ'ᴛ sᴄʀᴀᴘᴇ ᴍᴇᴍʙᴇʀs')
+        print(f'{error}{r} couldn't scrape members')
         print(f'{error}{r} {e}')
         continue
     approx_members_count = len(members)
