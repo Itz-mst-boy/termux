@@ -47,30 +47,30 @@ def clr():
 while True:
     clr()
     banner()
-    print(lg+'[1] Add New Accounts'+n)
-    print(lg+'[2] Filter All Banned Accounts'+n)
-    print(lg+'[3] Delete specific accounts'+n)
-    print(lg+'[4] Update your Script'+n)
-    print(lg+'[5] Exit'+n)
-    a = int(input('\nEnter Your Choice: '))
+    print(lg+'[1] ᴀᴅᴅ ɴᴇᴡ ᴀᴄᴄᴏᴜɴᴛs ʙʙ'+n)
+    print(lg+'[2] ғɪʟᴛᴇʀ ᴀʟʟ ʙᴀɴɴᴇᴅ ᴀᴄᴄᴏᴜɴᴛs'+n)
+    print(lg+'[3] ᴅᴇʟᴇᴛᴇ sᴘᴇᴄɪғɪᴄ ᴀᴄᴄᴏᴜɴᴛs'+n)
+    print(lg+'[4] ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ sᴄʀɪᴘᴛ ᴅᴏɴᴛ ᴜsᴇ'+n)
+    print(lg+'[5] ᴇxɪᴛ'+n)
+    a = int(input('\nᴇɴᴛᴇʀ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ ʙʙ: '))
     if a == 1:
         new_accs = []
         with open('vars.txt', 'ab') as g:
-            number_to_add = int(input(f'\n{gr} [~] Enter number of accounts to add: {r}'))
+            number_to_add = int(input(f'\n{gr} [~] ᴇɴᴛᴇʀ  ɴᴜᴍʙᴇʀ ᴏғ ᴀᴄᴄᴏᴜɴᴛs ᴛᴏ ᴀᴅᴅ ᴇɢ(2/3): {r}'))
             for i in range(number_to_add):
-                phone_number = str(input(f'\n{ye} [~] Enter Phone Number: {r}'))
+                phone_number = str(input(f'\n{ye} [~] ᴇɴᴛᴇʀ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ʙʙ: {r}'))
                 parsed_number = ''.join(phone_number.split())
                 pickle.dump([parsed_number], g)
                 new_accs.append(parsed_number)
-            print(f'\n{cy} [i] Saved all accounts in vars.txt')
+            print(f'\n{cy} [i] sᴀᴠᴇᴅ ᴀʟʟ ᴀᴄᴄᴏᴜɴᴛs ɪɴ vars.txt')
             clr()
-            print(f'\n{gr} [*] Logging in from new accounts\n')
+            print(f'\n{gr} [*] ʟᴏɢɢɪɴɢ ɪɴ ғʀᴏᴍ ɴᴇᴡ ᴀᴄᴄᴏᴜɴᴛs\n')
             for number in new_accs:
                 c = TelegramClient(f'sessions/{number}', 11849799 , '2bdcc0f0b3a04954d1cc1b11d5a1f669')
                 c.start(number)
                 print(f'{ye}[+] 𝐋𝐨𝐠𝐢𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮L')
                 c.disconnect()
-            input(f'\n Press enter to goto main menu...')
+            input(f'\n ᴘʀᴇss ᴇɴᴛᴇʀ ᴛᴏ ɢᴏ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ...')
 
         g.close()
     elif a == 2:
@@ -84,7 +84,7 @@ while True:
                 break
         h.close()
         if len(accounts) == 0:
-            print(r+'[!] There are no accounts! Please add some and retry')
+            print(r+'[!] ᴛʜᴇʀᴇ ᴀʀᴇ ɴᴏ ᴀᴄᴄᴏᴜɴᴛs ʙʙ! ᴘʟᴇᴀsᴇ ᴀᴅᴅ sᴏᴍᴇ ᴀɴᴅ ʀᴇᴛʀʏ')
             sleep(3)
         else:
             for account in accounts:
@@ -95,13 +95,13 @@ while True:
                     try:
                         client.send_code_request(phone)
                         #client.sign_in(phone, input('[+] Enter the code: '))
-                        print(f'{blue}[+] {phone} is not banned{n}')
+                        print(f'{blue}[+] {phone} ɪs ɴᴏᴛ ʙᴀɴɴᴇᴅ{n}')
                     except PhoneNumberBannedError:
-                        print(r+str(phone) + ' is banned!'+n)
+                        print(r+str(phone) + ' ɪs ʙᴀɴɴᴇᴅ 😞!'+n)
                         banned_accs.append(account)
             if len(banned_accs) == 0:
-                print(lg+'Congrats! No banned accounts')
-                input('\nPress enter to goto main menu...')
+                print(lg+'ᴄᴏɴɢʀᴀᴛs! ɴᴏ ʙᴀɴɴᴇᴅ ᴀᴄᴄᴏᴜɴᴛs')
+                input('\nᴘʀᴇss ᴇɴᴛᴇʀ ᴛᴏ ɢᴏ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ...')
             else:
                 for m in banned_accs:
                     accounts.remove(m)
@@ -110,8 +110,8 @@ while True:
                         Phone = a[0]
                         pickle.dump([Phone], k)
                 k.close()
-                print(lg+'[i] All banned accounts removed'+n)
-                input('\nPress enter to goto main menu...')
+                print(lg+'[i] ᴀʟʟ ʙᴀɴɴᴇᴅ ᴀᴄᴄᴏᴜɴᴛs ʀᴇᴍᴏᴠᴇᴅ'+n)
+                input('\nᴘʀᴇss ᴇɴᴛᴇʀ ᴛᴏ  ɢᴏ ᴛᴏ  ᴍᴀɪɴ ᴍᴇɴᴜ...')
 
     elif a == 3:
         accs = []
@@ -123,11 +123,11 @@ while True:
                 break
         f.close()
         i = 0
-        print(f'{ye}[i] Choose an account to delete\n')
+        print(f'{ye}[i] ᴄʜᴏᴏsᴇ ᴀɴ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ᴅᴇʟᴇᴛᴇ\n')
         for acc in accs:
             print(f'{lg}[{i}] {acc[0]}{n}')
             i += 1
-        index = int(input(f'\n{lg}[+] Enter a choice: {n}'))
+        index = int(input(f'\n{lg}[+] ᴇɴᴛᴇʀ ᴀ ᴄʜᴏɪᴄᴇ ʙʙ: {n}'))
         phone = str(accs[index][0])
         session_file = phone + '.session'
         if os.name == 'nt':
@@ -138,23 +138,23 @@ while True:
         f = open('vars.txt', 'wb')
         for account in accs:
             pickle.dump(account, f)
-        print(f'\n{lg}[+] Account Deleted{n}')
-        input(f'\nPress enter to goto main menu...')
+        print(f'\n{lg}[+] ᴀᴄᴄᴏᴜɴᴛ ᴅᴇʟᴇᴛᴇᴅ{n}')
+        input(f'\nᴘʀᴇss ᴇɴᴛᴇʀ ᴛᴏ ɢᴏ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ...')
         f.close()
     elif a == 4:
-        # thanks to github.com/Itz-mst-boy for the snippet below
-        print(f'\n{lg}[i] Checking for updates...')
+        # ᴛʜᴀɴᴋs ᴛᴏ github.com/Itz-mst-boy ғᴏʀ ᴛʜᴇ sɴɪᴘᴘᴇᴛ ʙᴇʟᴏᴡ
+        print(f'\n{lg}[i] ᴄʜᴇᴄᴋɪɴɢ ғᴏʀ ᴜᴘᴅᴀᴛᴇs...')
         try:
             # https://raw.githubusercontent.com/Itz-mst-boy/termux/main/version.txt
             version = requests.get('https://raw.githubusercontent.com/Itz-mst-boy/termux/main/version.txt')
         except:
-            print(f'{r} You are not connected to the internet')
-            print(f'{r} Please connect to the internet and retry')
+            print(f'{r} ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ᴛʜᴇ  ɪɴᴛᴇʀɴᴇᴛ')
+            print(f'{r} ᴘʟᴇᴀsᴇ ᴄᴏɴɴᴇᴄᴛ ᴛᴏ ᴛʜᴇ ɪɴᴛᴇʀɴᴇᴛ ᴀɴᴅ ʀᴇᴛʀʏ')
             exit()
         if float(version.text) > 0.9:
-            prompt = str(input(f'{lg}[~] Update available[Version {version.text}]. Download?[y/n]: {r}'))
+            prompt = str(input(f'{lg}[~] ᴜᴘᴅᴀᴛᴇ ᴀᴠᴀɪʟᴀʙʟᴇ[Version {version.text}]. ᴅᴏᴡɴʟᴏᴀᴅ?[y/n]: {r}'))
             if prompt == 'y' or prompt == 'yes' or prompt == 'Y':
-                print(f'{lg}[i] Downloading updates...')
+                print(f'{lg}[i] ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴜᴘᴅᴀᴛᴇs...')
                 if os.name == 'nt':
                     os.system('del adder.py')
                     os.system('del manager.py')
@@ -164,15 +164,15 @@ while True:
                 #os.system('del scraper.py')
                 os.system('curl -l -O https://raw.githubusercontent.com/Itz-mst-boy/termux/main/rexadder.py')
                 os.system('curl -l -O https://raw.githubusercontent.com/Itz-mst-boy/termux/main/rexmanager.py')
-                print(f'{gr}[*] Updated to version: {version.text}')
-                input('Press enter to exit...')
+                print(f'{gr}[*] ᴜᴘᴅᴀᴛᴇᴅ ᴛᴏ ᴠᴇʀsɪᴏɴ: {version.text}')
+                input('ᴘʀᴇss ᴇɴᴛᴇʀ ᴛᴏ ᴇxɪᴛ...')
                 exit()
             else:
-                print(f'{lg}[!] Update aborted.')
-                input('Press enter to goto main menu...')
+                print(f'{lg}[!] ᴜᴘᴅᴀᴛᴇ ᴀʙᴏʀᴛᴇᴅ.')
+                input('ᴘʀᴇss ᴇɴᴛᴇʀ ᴛᴏ ɢᴏᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ...')
         else:
-            print(f'{lg}[i] Your Astra is already up to date')
-            input('Press enter to goto main menu...')
+            print(f'{lg}[i] ʏᴏᴜ ᴀʟʀᴇᴀᴅʏ  ᴜᴘᴅᴀᴛᴇᴅ  ᴡʜʏ ʙᴜʟʟʏɪɴɢ ᴍᴇ ғᴜᴄᴋ')
+            input('ᴘʀᴇss ᴇɴᴛᴇʀ ᴛᴏ ɢᴏᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ...')
     elif a == 5:
         clr()
         banner()
