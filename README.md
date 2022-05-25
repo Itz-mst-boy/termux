@@ -4,8 +4,8 @@
 # ᴜsᴀɢᴇ 👨‍🔧
 
 * You need to install requirements first - `pip install -r requirements.txt`
-* Then you need to store your accounts using `rexmanager.py`
-* Then, scrape and add members using `rexadder.py`
+* Then you need to store your accounts using `manager.py`
+* Then, scrape and add members using `xadder.py`
 
 <b> For full tutorial, refer to <a href='https://github.com/Itz-mst-boy/termux/blob/main/how_to_use.txt'>how_to_use.txt</a> </b>
 
