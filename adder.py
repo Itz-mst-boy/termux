@@ -243,7 +243,7 @@ for acc in to_use:
             peer_flood_status += 1
             continue
         except ChatWriteForbiddenError:
-            print(f'{error}{r} ᴄᴀɴ'ᴛ ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ. ᴄᴏɴᴛᴀᴄᴛ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ ᴛᴏ ᴇɴᴀʙʟᴇ ᴍᴇᴍʙᴇʀs ᴀᴅᴅɪɴɢ')
+            print(f'{error}{r} ᴄᴀɴᴛ ᴀᴅᴅ ᴛᴏ ɢʀᴏᴜᴘ. ᴄᴏɴᴛᴀᴄᴛ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ ᴛᴏ ᴇɴᴀʙʟᴇ ᴍᴇᴍʙᴇʀs ᴀᴅᴅɪɴɢ')
             if index < approx_members_count:
                 log_status(scraped_grp, index)
             exit_window()
