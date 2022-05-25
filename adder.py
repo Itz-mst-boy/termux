@@ -1,9 +1,8 @@
 '''
-=============SON OF GOD=====================
-REX 1.0 members adding script
-Coded by REX - @krish775
-Apologies if anything in the code is dumb :)
-Copy with credits
+=============ᴍᴀsᴛᴇʀᴍɪɴᴅ ɴᴇᴛᴡᴏʀᴋ ᴏғғɪᴄɪᴀʟ=====================
+ᴍᴜᴋᴇsʜ 2.0 ᴍᴇᴍʙᴇʀs ᴀᴅᴅɪɴɢ sᴄʀɪᴘᴛ
+ᴄᴏᴅᴇᴅ  ʙʏ  ᴍᴜᴋᴇsʜ - @itz_mst_boy
+ᴀᴘᴏʟᴏɢɪᴇs ɪғ ᴀɴʏᴛʜɪɴɢ ɪɴ ᴛʜᴇ ᴄᴏᴅᴇ ɪs ᴅᴜᴍʙ :)
 ************************************************
 '''
 
@@ -52,8 +51,8 @@ def banner():
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{rs}')
-    #print('=============SON OF GOD==============')
-    print(f'{lg}   Version: {w}1.0{lg} | Author: {w}HEROX{rs}\n')
+    #print('=============ᴍᴀsᴛᴇʀᴍɪɴᴅ ɴᴇᴛᴡᴏʀᴋ ᴏғғɪᴄɪᴀʟ==============')
+    print(f'{lg}   ᴠᴇʀsɪᴏɴ: {w}2.0{lg} | ᴀᴜᴛʜᴏʀ: {w}ᴍᴜᴋᴇsʜ{rs}\n')
 
 
 # function to clear screen
