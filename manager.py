@@ -142,11 +142,11 @@ while True:
         input(f'\nPress enter to goto main menu...')
         f.close()
     elif a == 4:
-        # thanks to github.com/krish775 for the snippet below
+        # thanks to github.com/Itz-mst-boy for the snippet below
         print(f'\n{lg}[i] Checking for updates...')
         try:
-            # https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/Herox-xd/Luli-Member-Adder/main/version.txt')
+            # https://raw.githubusercontent.com/Itz-mst-boy/LULI-Member-Adder/main/version.txt
+            version = requests.get('https://raw.githubusercontent.com/Itz-mst-boy/Luli-Member-Adder/main/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
@@ -162,8 +162,8 @@ while True:
                     os.system('rm adder.py')
                     os.system('rm manager.py')
                 #os.system('del scraper.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/rexadder.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/krish775/Rex-TG-Member-Adder/main/rexmanager.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/Itz-mst-boy/LULI-Member-Adder/main/rexadder.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/Itz-mst-boy/LULI-Member-Adder/main/rexmanager.py')
                 print(f'{gr}[*] Updated to version: {version.text}')
                 input('Press enter to exit...')
                 exit()
