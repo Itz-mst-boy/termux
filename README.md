@@ -25,6 +25,6 @@
 
 # ᴅᴇᴠᴇʟᴏᴘᴇʀ
 [ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)
-[sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/worldwide_friend_zone)
+<b>[sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/worldwide_friend_zone)</b>
 [sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ](https://t.me/mr_sukkun)
 [ɴᴇᴛᴡᴏʀᴋ](https/t.me/mastermind_network_official)
