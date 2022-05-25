@@ -20,5 +20,11 @@
 * Scrapes members from private/public groups
 * Cross platform- Works in Android[Termux], Linux, Windows, etc
 
-# 🇸‌🇨‌🇷‌🇪‌🇪‌🇳‌🇸‌🇭‌🇴‌🇹‌ 📷
+# sᴄʀᴇᴇɴsʜᴏᴛ 📷
 <p align='center'><img src='https://github.com/Itz-mst-boy/termux/blob/main/Screenshot_20220525_103736.jpg' width='720' height='1520'></p>
+
+# ᴅᴇᴠᴇʟᴏᴘᴇʀ
+[ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)
+[sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/worldwide_friend_zone)
+[sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ](https://t.me/mr_sukkun)
+[ɴᴇᴛᴡᴏʀᴋ](https/t.me/mastermind_network_official)
