@@ -1,18 +1,18 @@
-# 🇷‌🇪‌🇽‌ 1.0
-<p align='center'><b>Cross Platform Telegram Members Scraping and Adding Toolkit</b></p>
+#  ᴛᴇʀᴍᴜx ᴍᴇᴍʙᴇʀ sᴄʀᴀᴘᴘɪɴɢ 
+<p align='center'><b>ᴄʀᴏss ᴘʟᴀᴛғᴏʀᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀs sᴄʀᴀᴘɪɴɢ ᴀɴᴅ ᴀᴅᴅɪɴɢ ᴛᴏᴏʟᴋɪᴛ</b></p>
 
-# 🇺‌🇸‌🇦‌🇬‌🇪‌ 👨‍🔧
+# ᴜsᴀɢᴇ 👨‍🔧
 
 * You need to install requirements first - `pip install -r requirements.txt`
 * Then you need to store your accounts using `rexmanager.py`
 * Then, scrape and add members using `rexadder.py`
 
-<b> For full tutorial, refer to <a href='https://github.com/krish775/Rex-TG-Member-Adder/blob/main/how_to_use.txt'>how_to_use.txt</a> </b>
+<b> For full tutorial, refer to <a href='https://github.com/Itz-mst-boy/termux/blob/main/how_to_use.txt'>how_to_use.txt</a> </b>
 
-# 🇫‌🇪‌🇦‌🇹‌🇺‌🇷‌🇪‌🇸‌ 🔥
+# ғᴇᴀᴛᴜʀᴇs  🔥
 
 * No need of API Id and API hash- It requires only phone numbers
-* Adds 60 members on an average
+* Add 50 members on an average
 * Adds members by ID, even if they don't have usernames.
 * Multi-session adding 
 * Adds members in high speed[Stable]
