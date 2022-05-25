@@ -52,7 +52,7 @@ while True:
     print(lg+'[3] ᴅᴇʟᴇᴛᴇ sᴘᴇᴄɪғɪᴄ ᴀᴄᴄᴏᴜɴᴛs'+n)
     print(lg+'[4] ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ sᴄʀɪᴘᴛ ᴅᴏɴᴛ ᴜsᴇ'+n)
     print(lg+'[5] ᴇxɪᴛ'+n)
-    a = int(input('\nᴇɴᴛᴇʀ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ ʙʙ')
+    a = int(input('\nᴇɴᴛᴇʀ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ ʙʙ:'))
     if a == 1:
         new_accs = []
         with open('vars.txt', 'ab') as g:
