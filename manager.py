@@ -56,7 +56,7 @@ while True:
     if a == 1:
         new_accs = []
         with open('vars.txt', 'ab') as g:
-            number_to_add = int(input(f'\n{gr} [~] ᴇɴᴛᴇʀ  ɴᴜᴍʙᴇʀ ᴏғ ᴀᴄᴄᴏᴜɴᴛs ᴛᴏ ᴀᴅᴅ ᴇɢ(2/3): {r}'))
+            number_to_add = int(input(f'\n{gr} [~] ᴇɴᴛᴇʀ  ɴᴜᴍʙᴇʀ ᴏғ ᴀᴄᴄᴏᴜɴᴛs ᴛᴏ ᴀᴅᴅ ᴇɢ(2 ᴏʀ 3): {r}'))
             for i in range(number_to_add):
                 phone_number = str(input(f'\n{ye} [~] ᴇɴᴛᴇʀ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ʙʙ: {r}'))
                 parsed_number = ''.join(phone_number.split())
@@ -68,7 +68,7 @@ while True:
             for number in new_accs:
                 c = TelegramClient(f'sessions/{number}', 11849799 , '2bdcc0f0b3a04954d1cc1b11d5a1f669')
                 c.start(number)
-                print(f'{ye}[+] 𝐋𝐨𝐠𝐢𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮L')
+                print(f'{ye}[+] ʟᴏɢɪɴ sᴜᴄᴄᴇssғᴜʟ ᴊᴏɪɴ @mr_sukkun')
                 c.disconnect()
             input(f'\n ᴘʀᴇss ᴇɴᴛᴇʀ ᴛᴏ ɢᴏ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ...')
 
