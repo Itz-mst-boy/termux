@@ -24,7 +24,7 @@
 <p align='center'><img src='https://github.com/Itz-mst-boy/termux/blob/main/Screenshot_20220525_103736.jpg' width='720' height='1520'></p>
 
 # ᴅᴇᴠᴇʟᴏᴘᴇʀ
-[ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)
+[ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boi)
 # sᴜᴘᴘᴏʀᴛ
 
 <b>[sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](https://t.me/worldwide_friend_zone)</b>
